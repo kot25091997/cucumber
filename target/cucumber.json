@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Login valid combination",
+        "description": "",
+        "id": "login;login-valid-combination",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44177467500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens newtours application",
+            "match": {
+              "location": "Loginse.user_opens_newtours_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7052049300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter username as \"mercury\" and password as \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"mercury\"",
+                  "offset": 49
+                }
+              ],
+              "location": "Loginse.user_enter_username_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click submit button",
+            "match": {
+              "location": "Login1.click_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368341300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "valid successful login",
+            "match": {
+              "location": "Loginse.valid_successful_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "Description: login application",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/main/resources/loginse.feature",
+    "tags": []
+  }
+]
